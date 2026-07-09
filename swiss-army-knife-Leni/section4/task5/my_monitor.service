@@ -1,0 +1,13 @@
+[Unit]
+Description=System Monitor Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/leni/CS3030/CS3030-Labs/swiss-army-knife-Leni/section4/task4/.venv/bin/python3 /home/leni/CS3030/CS3030-Labs/swiss-army-knife-Leni/section4/task1/monitor.py
+WorkingDirectory=/home/leni/CS3030/CS3030-Labs/swiss-army-knife-Leni/section4/task1
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
