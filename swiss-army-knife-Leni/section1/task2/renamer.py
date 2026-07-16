@@ -8,6 +8,6 @@ newName = "Hawaii_trip_"
 
 
 for f in files:
-    oldnum += oldNum
-    newNum +=newNnum
-    os.rename("IMG_" + str(oldNum) + ".jpg", newName + str(num) + ".jpg")
+    oldNum += oldNum
+    newNum +=newNum
+    os.rename("IMG_" + str(oldNum) + ".jpg", newName + str(newNum) + ".jpg")
